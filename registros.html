@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta name="Description" content="pagina de agencia de empleo">	
+<meta name="Keywords" content="Agencia, Empleo, Empleos, Ecuador">	
+<link rel="stylesheet" href="estilos.css">
+<title>Agencia de Empleos</title>
+</head>
+
+<body>
+	
+	
+	<header id="logo">
+		<h1><a href="index.html" >AGENCIA DE EMPLEOS</a></h1>
+		<p>Bienvenidos a nuestro sitio Web</p>
+	</header>
+	
+	
+
+	
+		<nav id="menu">
+		     <ul>
+                 <li><a href="index.html" title="Pagina Principal">Inicio</a></li>
+				 <li><a href="Nosotros.html" title="Nosotros">Nosotros</a></li>
+				 <li><a href="Recursos.html" title="Recursos">Recursos</a></li>
+				 <li><a href="Registros.html" title="Registros">Registros</a></li>
+				 <li><a href="Contactanos.html" title="Contactanos">Contactanos</a></li>
+			 </ul>
+		</nav>
+	
+	
+	<section id="formulario">
+	                <h2>Formulario</h2>
+		<form name="frmregistro" method="post" action="Registros.html">
+		    <h2>FORMULARIO DE REGISTRO</h2>
+			<label class="label">COMPLETE EL FORMULARIO CON SUS DATOS</label>
+		    <p id="linea">&nbsp;</p>
+			
+			
+			<label class="label">Nombres y Apellidos</label>
+			<input name="txtnombres" type="text" class="caja" size="80" placeholder="Ingrese datos completos" required>
+			
+			
+			<label class="label">Cedula/Pasaporte/Identificaci&oacute;n/DNI</label>
+			<input name="txtcedula" type="text" class="caja" size="80" placeholder="Ingrese datos completos" required>
+			
+			<label class="label">Celular de Contacto</label>
+			<input name="txtcelular" type="text" class="caja" size="80" placeholder="Verifique su celular" required>
+			
+			<label class="label">Tel&eacute;fono convencional de Contacto</label>
+			<input name="txttelefono" type="text" class="caja" size="80" placeholder="Ingresar con el prefijo de provincia" >
+			
+			<label class="label">Estudios Realizados</label>
+			<label class="label">
+			   <input type="checkbox" name="chkprimaria" checked="checked"> PRIMARIA
+			</label>
+			<label class="label">
+			   <input type="checkbox" name="chksegundaria" > SEGUNDARIA
+			</label>
+			<label class="label">
+			   <input type="checkbox" name="chktecnico" > T&Eacute;CNICO
+			</label>
+			<label class="label">
+			   <input type="checkbox" name="chkuniversitario" > UNIVERSITARIO
+			</label>
+			<label class="label">
+			   <input type="checkbox" name="chkmaestrias" > MAESTRIAS
+			</label>
+			
+			<label class="label">En caso de tener titulos especifique</label>
+			<input name="txttitulo" type="text" class="caja" size="80" placeholder="Titulo Obtenido" >
+			
+			<label class="label">Estado Civil</label>
+			<label class="label">
+			   <input type="radio" name="btnestado" value="s" checked="checked">SOLTERO
+			</label>
+			<label class="label">
+			   <input type="radio" name="btnestado" value="c">CASADO
+			</label>
+			<label class="label">
+			   <input type="radio" name="btnestado" value="v">VIUDO
+			</label>
+			<label class="label">
+			   <input type="radio" name="btnestado" value="d">DIVORCIADO
+			</label>
+			
+			
+			<label class="label">Pa&iacute;s de Nacimiento</label>
+			<input name="txtpais" type="text" class="caja" size="80" placeholder="Pa&iacute;s de nacimiento" required>
+			
+			
+			<label class="label">Provincia de nacimiento</label>
+			<input name="txtprovincia" type="text" class="caja" size="80" placeholder="Provincia de nacimiento" required>
+			
+			<label class="label">Pa&iacute;s de Nacimiento</label>
+			<input name="txtpaisresidencia" type="text" class="caja" size="80" placeholder="Pa&iacute;s de Residencia" required>
+			
+			
+			<label class="label">Provincia de nacimiento</label>
+			<input name="txtprovinciaresidencia" type="text" class="caja" size="80" placeholder="Provincia de Residencia" required>
+			
+			<label class="label">Fecha de Nacimiento</label>
+			<input type="datetime-local" name="txtfecha">
+			
+			<label class="label">Correo Electrónico</label>
+			<input type="email" class="caja" size="80" name="txtcorreo">
+			
+			<label class="label">Presentaci&oacute;n personal</label>
+			<p><textarea name="comentario" rows="10" cols="100">Escribe aqu&iacute; su presentaci&oacute;n, queremos conocerte: </textarea></p>
+			
+			<label class="label">Ingresa tu Curr&iacute;culum</label>
+			<input type="file">
+			
+			<input type="submit" value="Registrar">
+			<input type="reset" value="Limpiar">
+		</form>
+		
+	</section>
+	
+	
+	<footer id="pie"><p><small>Todos los derechos reservados -@2022</small></p></footer>
+</body>
+</html>

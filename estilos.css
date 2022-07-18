@@ -1,0 +1,206 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/*Estilo para todo el documento*/
+body{
+	background:#178EAE;
+	font-family: Tahoma;
+	font-size: 12PX;
+	width: 99%;
+	margin: auto;
+}
+/*ESTILO PARA LA IMAGEN LOGO*/	
+
+#logo{
+	background: url("imagenes/logoagencia.png") no-repeat right;
+	margin: 0 auto 0 auto;
+	background-size: 50%;
+	padding: 20em 0em 0em 0em;
+	text-transform: uppercase;
+}
+
+/*ESTILO PARA LOS ELEMENTOS DE LA LISTA DEL MENU*/
+#menu li{
+	display:inline-block;
+}
+
+/*ESTILO PARA LA ETIQUETA DEL MENU DE OPCIONES*/
+
+#menu a{
+	display: block;
+	float: left;
+	margin-right: 0.12em;
+	padding: 1em 1.5em;
+	background: #178EAE;
+	box-shadow: inset 0px -2px 0px 0px rgba(0,0,0,0.25);
+	text-decoration: none;
+	text-shadow: 1px 1px 0px #0C749C;
+	text-transform: uppercase;
+	font-size: 0.90em;
+	color: #FFFFFF;
+}
+
+/*ESTILO PARA LA ETIQUETA INCLUIDA EN H1 */
+
+#logo h1 a{
+	margin: 0em;
+	padding: 0em 0em 0em 0em;
+	letter-spacing: -.1em;
+	text-decoration: none;
+	font-size: 2em;
+	font-weight: bold;
+	color: #FFFF;
+}
+
+/* ESTILO PARA EL SUBTITULO "BIENVENIDOS A NUESTRO SITIO WEB"*/
+
+#subtitulo{
+	padding: 0em;
+	margin-top: -1em;
+	margin-left: 5em;
+	font-size: 1.5em;
+	color: #BDF2FF;
+}
+
+/* ESTILO PARA SECCIÓN QUE MUESTRA EL CONTENIDO*/
+
+.seccion{
+	width: 80%;
+	height:auto;
+	padding: 20px 40px;
+	background:#FFF;
+	
+}
+
+/*ESTILO PARA LA IMAGEN DENTRO DE SECCIÓN*/
+
+.imagen{
+	margin-top: 2em;
+	width: 30%;
+	height: 35%;
+	text-align: center;
+}
+/*ESTILO PARA EL TITULO DENTRO DE SECCIÓN*/
+
+#subtitulo2{
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 25px;
+	color: #039;
+}
+
+/*ESTILO PARA LADO DERECHO*/
+#ladoderecho{
+	margin: -5px 20px 0px 0px;
+	float: right;
+	width: 65%;
+	text-align: justify;
+	color: #666;
+}
+
+
+
+/*ESTILO PARA LADO IZQUIERDO*/
+#ladoizquierdo{
+	margin: -5px 20px 0px 0px;
+	float:left;
+	width: 65%;
+	text-align: justify;
+	color: #666;
+}
+
+/*ESTILO PARA EL PIE DE PÁGINA*/
+
+#pie{
+	text-align: center;
+}
+
+/*ESTILO QUE DA EFECTO AL PASAR EL MOUSE SOBRE EL MENU PRINCIPAL */
+#menu li a:hover{
+	color:#CB3A3D;
+	text-decoration: none;
+}
+
+/* Menu Recursos / Columnas (Muestra las fotos ) */
+.columna{
+	margin: -5px 20px 0px 0px;
+	display: inline-block;
+	width: 30%;
+	color: #666;
+	
+}
+/*ESTILO DE SECCIÓN EXTENSA EN MENU RECURSOS*/
+
+.seccionextensa{
+	width: 80%;
+	padding: 20px 40px;
+	background: #FFF;
+	height: auto;
+}
+
+/*ESTILO PARA EL FORMULARIO*/
+#formulario{
+	border: solid 2px #B7DDF2;
+	background: #B7DDF2;
+	margin: 0 auto;
+	width: 60%;
+	padding: 10px;
+}
+
+/*ESTILO PARA EL TEXTO Y SU LINEA*/
+
+#linea{
+	color: #666666;
+	margin-bottom: 5px;
+	border-bottom: solid 1px #FFF;
+	padding-bottom: 5px;
+}
+
+/*ESTILO PARA LOS TEXTOS DEL FORMULARIO*/
+
+.label{
+display: block;
+	font-weight: bold;
+	width: 50%;
+	font-size: 12px;
+}
+
+/*ESTILO PARA LA CAJA DE TXTO SIMPLE */
+
+.caja{
+	padding: 4px;
+	border: solid 1px #AACFE4;
+	margin: 2px 0 5px 0;
+}
+
+/*ESTILO PARA EL BOTON REGISTRAR*/
+
+#boton{
+	clear:both;
+	margin-left: 150px;
+	width: 125px;
+	height: 31px;
+	background: #666666;
+	text-align: center;
+	line-height: 31px;
+	color: #FFFFFF;
+	font-size: 11px;
+	font-weight: bold;
+}
+
+/*ESTILO DE GEOLOCALIZACIÓN*/
+
+#mapa{
+width: 50%;
+	height: 50%;
+}
+
+/*ESTILO PARA LAS TABLAS*/
+
+.tabla{
+	width: 50%;
+    border: 1px #D02B2E;
+    padding: 0;
+    text-align: center;
+
+}
